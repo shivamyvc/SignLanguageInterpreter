@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h1>Video Feed</h1>
+    <img src="{% url 'live_feed' %}" width="640" height="480">
+</div>
+{% endblock %}
+
+{% block scripts %}
+<!-- Add any JavaScript code that you want to include in the template here -->
+{% endblock %}
